@@ -37,3 +37,15 @@ variable "private_subnet1_cidr" {
 variable "env" {
   type = string
 }
+
+variable "bastion_host_ami_us-east-1" {
+  type = string
+}
+
+variable "bastion_host_machine_type" {
+  type = string
+}
+
+variable "bastion_host_key_name" {
+  type = string
+}
